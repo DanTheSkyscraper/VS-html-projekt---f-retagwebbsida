@@ -1,0 +1,204 @@
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-size: 11pt;
+    font-style: georgia;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(194, 190, 190);
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo-bar {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    place-items: center;
+}
+
+article{
+    grid-template-columns: 25% 50% 25%;
+}
+
+footer{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-auto-flow: column;
+    padding: 10px;
+}
+
+.quote{
+    text-align: center;
+    font-style: italic;
+}
+
+.main_subtitle_1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.main_description{
+    text-align: center;
+    max-width: 55ch;
+    line-height: 1.4;
+    margin: auto;
+    padding: 1.5rem;
+    font-weight: bold;
+    color: rgb(66, 66, 66);
+    font-style: georgia;
+}
+
+.three-col-layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+@media (max-width: 600px){
+    .three-col-layout{
+        display: block;
+    }
+}
+
+img.stretchy{
+    height: 100%;
+    width: 100%;
+}
+
+
+.three-col-layout2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project_text{
+    max-width: 55ch;
+    line-height: 1.4;
+    margin: auto;
+    padding: 1.5rem;
+    font-size: 11pt;
+    font-style: georgia;
+}
+
+.History{
+    max-width: 90ch;
+    line-height: 1.4;
+    margin: auto;
+    padding: 1.5rem;
+    font-size: 11pt;
+    font-style: georgia;
+}
+
+.sub_title_1{
+    text-align: center;
+    margin: auto;
+    padding: 1.5rem;
+    font-size: 15pt;
+    text-decoration: underline;
+}
+
+.QA{
+    max-width: 85ch;
+    line-height: 1.4;
+    margin: auto;
+    padding: 1.5rem;
+    font-size: 11pt;
+    font-style: georgia;
+}
+
+.question{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 12pt;
+}
+
+.Personal_beskrivning{
+    max-width: 90ch;
+    line-height: 1.4;
+    margin: auto;
+    padding: 1.5rem;
+    font-size: 11pt;
+    font-style: georgia;
+}
+
+.jobbdesc_adress{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.jobbdesc{
+    max-width: 55ch;
+    line-height: 1.4;
+    margin: auto;
+    padding: 1.5rem;
+    font-size: 11pt;
+    font-style: georgia;
+}
+
+.Adress{
+    max-width: 55ch;
+    line-height: 1.4;
+    margin: auto;
+    padding: 1.5rem;
+    font-size: 11pt;
+    font-style: georgia;
+}
+
+.jobb_contain_list{
+    max-width: 85ch;
+    line-height: 1.4;
+    margin: auto;
+    padding: 1.5rem;
+    font-size: 11pt;
+    font-style: georgia;
+}
+
+.jobb_list{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 12pt;
+}
+
+.produkter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3rem;
+}
+
+nav{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: georgia;
+    padding-top: 15px;
+}
+
+a:hover{
+    text-decoration: underline cornflowerblue;
+}
+
+.three-column-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.fifty-fifty{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div img{
+    width: 100%;
+}
